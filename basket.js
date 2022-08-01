@@ -61,7 +61,8 @@ function getBasketTotal() {
   //     return accumulator + currentValue.price;
   //   }, 0);
 
-  //procedural method
+  //procedural methods
+
   let total = 0;
   for (let item of basket) {
     total = total + item.price;
@@ -74,6 +75,10 @@ function removeItemFromBasket(productToRemove) {
   // remove it from the basket array (splice method)
   const indexToRemove = basket.indexOf(productToRemove);
   return basket.splice(indexToRemove, 1);
+}
+
+function someNewFunction() {
+  console.log("hello world");
 }
 
 module.exports = {

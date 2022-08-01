@@ -81,6 +81,10 @@ function someNewFunction() {
   console.log("hello world");
 }
 
+function DansOtherFunction() {
+  console.log("new functiono no the otherone");
+}
+
 module.exports = {
   scanItem,
   addItemToBasket,
